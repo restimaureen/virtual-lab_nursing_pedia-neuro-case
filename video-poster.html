@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { margin: 0; padding: 0; }
+        .poster { 
+            width: 800px; 
+            height: 400px; 
+            background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+            position: relative;
+            font-family: Arial, sans-serif;
+        }
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 120px;
+            height: 120px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .play-icon {
+            width: 0;
+            height: 0;
+            border-left: 36px solid #4F46E5;
+            border-top: 24px solid transparent;
+            border-bottom: 24px solid transparent;
+            margin-left: 8px;
+        }
+        .title {
+            position: absolute;
+            bottom: 50px;
+            width: 100%;
+            text-align: center;
+            color: white;
+        }
+        .title h1 { font-size: 32px; margin: 0; }
+        .title p { font-size: 20px; color: #C7D2FE; margin: 5px 0 0 0; }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <div class="play-button">
+            <div class="play-icon"></div>
+        </div>
+        <div class="title">
+            <h1>Pediatric Neurologic Assessment</h1>
+            <p>Introduction Video</p>
+        </div>
+    </div>
+</body>
+</html>

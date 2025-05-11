@@ -1,0 +1,21 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5" />
+      <stop offset="100%" style="stop-color:#7C3AED" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  
+  <!-- Play button -->
+  <circle cx="400" cy="200" r="60" fill="white" opacity="0.9"/>
+  <path d="M370 170 L370 230 L430 200 Z" fill="#4F46E5"/>
+  
+  <!-- Title -->
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">
+    Pediatric Neurologic Assessment
+  </text>
+  <text x="400" y="350" font-family="Arial, sans-serif" font-size="20" fill="#C7D2FE" text-anchor="middle">
+    Introduction Video
+  </text>
+</svg>

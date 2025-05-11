@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom aspect ratio classes for video containers */
+.aspect-w-16 {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+}
+
+.aspect-w-16 > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
